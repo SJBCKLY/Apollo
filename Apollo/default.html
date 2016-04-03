@@ -14,6 +14,14 @@
     <script src="/js/default.js"></script>
 </head>
 <body class="win-type-body">
-    <p>Content goes here</p>
+    <form>
+        <input type="text" id="query" placeholder="Search a track - Then press enter!">
+    </form>
+    <div id="result">
+        <div id="text"></div>
+        <audio id="audio"></audio>
+    </div>
+    <script src="js/spotify-web-api.js"></script>
+    <script src="js/Apollo.js"></script>
 </body>
 </html>
